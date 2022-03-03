@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star Wars Game", "Star Wars Game.csproj", "{DA3C0FBE-F9A0-4EEE-ABD5-DD20F6E2E64B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA3C0FBE-F9A0-4EEE-ABD5-DD20F6E2E64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3C0FBE-F9A0-4EEE-ABD5-DD20F6E2E64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3C0FBE-F9A0-4EEE-ABD5-DD20F6E2E64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3C0FBE-F9A0-4EEE-ABD5-DD20F6E2E64B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFA48E93-00B9-4464-86EF-F6CC132D287B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+D:\MSSA\PCAD5\Project1\Star Wars Game\bin\Debug\Star Wars Game.exe.config
+D:\MSSA\PCAD5\Project1\Star Wars Game\bin\Debug\Star Wars Game.exe
+D:\MSSA\PCAD5\Project1\Star Wars Game\bin\Debug\Star Wars Game.pdb
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star Wars Game.csproj.AssemblyReference.cache
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star Wars Game.csproj.SuggestedBindingRedirects.cache
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star_Wars_Game.GameForm.resources
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star_Wars_Game.Properties.Resources.resources
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star Wars Game.csproj.GenerateResource.cache
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star Wars Game.csproj.CoreCompileInputs.cache
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star Wars Game.exe
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star Wars Game.pdb
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star_Wars_Game.MenuForm.resources
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star_Wars_Game.ScoresForm.resources
+D:\MSSA\PCAD5\Project1\Star Wars Game\bin\Debug\EntityFramework.dll
+D:\MSSA\PCAD5\Project1\Star Wars Game\bin\Debug\EntityFramework.SqlServer.dll
+D:\MSSA\PCAD5\Project1\Star Wars Game\bin\Debug\EntityFramework.xml
+D:\MSSA\PCAD5\Project1\Star Wars Game\bin\Debug\EntityFramework.SqlServer.xml
+D:\MSSA\PCAD5\Project1\Star Wars Game\obj\Debug\Star Wars Game.csproj.CopyComplete
