@@ -172,6 +172,7 @@
     <Content Include="Resources\damage.wav" />
     <Content Include="Resources\imperial_march.wav" />
     <Content Include="Resources\jabba-the-hutt-laughing.wav" />
+    <Content Include="Resources\LAZER.wav" />
     <Content Include="Resources\light-saber-off.wav" />
     <Content Include="Resources\light-saber-on.wav" />
     <Content Include="Resources\rebel-theme.wav" />

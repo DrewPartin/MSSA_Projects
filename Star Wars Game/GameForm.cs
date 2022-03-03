@@ -18,6 +18,7 @@ namespace Star_Wars_Game
         Random rnd = new Random();
         SoundPlayer laser = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\blaster-firing.wav");
         SoundPlayer explosion = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\damage.wav");
+        SoundPlayer hit = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\LAZER.wav");
         SoundPlayer scream = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\WilhelmScream.wav");
         SoundPlayer cantina = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\star-wars-cantina-song.wav");
         SoundPlayer jabba = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\jabba-the-hutt-laughing.wav");
@@ -444,6 +445,7 @@ namespace Star_Wars_Game
                 {
                     if (shieldBar.Value > 0)
                     {
+                        hit.Play();
                         shieldBar.Value -= 25;
                         if (score >= 25)
                         {
@@ -458,6 +460,7 @@ namespace Star_Wars_Game
                 {
                     if (shieldBar.Value > 0)
                     {
+                        hit.Play();
                         shieldBar.Value -= 25;
                         if (score >= 25)
                         {
@@ -471,6 +474,7 @@ namespace Star_Wars_Game
                 {
                     if (shieldBar.Value > 0)
                     {
+                        hit.Play();
                         shieldBar.Value -= 25;
                         if (score >= 25)
                         {
@@ -484,6 +488,7 @@ namespace Star_Wars_Game
                 {
                     if (shieldBar.Value > 0)
                     {
+                        hit.Play();
                         shieldBar.Value -= 25;
                         if (score >= 25)
                         {
@@ -497,6 +502,7 @@ namespace Star_Wars_Game
                 {
                     if (shieldBar.Value > 0)
                     {
+                        hit.Play();
                         shieldBar.Value -= 25;
                         if (score >= 25)
                         {
@@ -510,6 +516,7 @@ namespace Star_Wars_Game
                 {
                     if (shieldBar.Value > 0)
                     {
+                        hit.Play();
                         shieldBar.Value -= 25;
                         if (score >= 25)
                         {
@@ -526,6 +533,7 @@ namespace Star_Wars_Game
                 {
                     if (shieldBar.Value > 0)
                     {
+                        hit.Play();
                         shieldBar.Value -= 25;
                         if (score >= 25)
                         {
@@ -540,6 +548,7 @@ namespace Star_Wars_Game
                 {
                     if (shieldBar.Value > 0)
                     {
+                        hit.Play();
                         shieldBar.Value -= 25;
                         if (score >= 25)
                         {
@@ -553,6 +562,7 @@ namespace Star_Wars_Game
                 {
                     if (shieldBar.Value > 0)
                     {
+                        hit.Play();
                         shieldBar.Value -= 25;
                         if (score >= 25)
                         {
