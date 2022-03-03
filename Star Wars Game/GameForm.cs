@@ -754,6 +754,13 @@ namespace Star_Wars_Game
 
         private void btnExitGF_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Thanks for playing!");
+            Application.Exit();
+        }
+
+        private void btnExit2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your score will not be saved. Thanks for playing!");
             Application.Exit();
         }
     }

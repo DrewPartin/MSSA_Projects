@@ -73,7 +73,6 @@ namespace Star_Wars_Game
 
         private void backTimer_Tick(object sender, EventArgs e)
         {
-            //musicPlayer.Stop();
             backTimer.Stop();
             MenuForm mf = new MenuForm();
             this.Visible = false;

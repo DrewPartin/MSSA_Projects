@@ -73,6 +73,7 @@
             this.picStarDestroyer = new System.Windows.Forms.PictureBox();
             this.picDeathStar = new System.Windows.Forms.PictureBox();
             this.gameOverTimer = new System.Windows.Forms.Timer(this.components);
+            this.btnExit2 = new System.Windows.Forms.Button();
             this.hiScorePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fireworks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.explosion4)).BeginInit();
@@ -284,6 +285,7 @@
             // 
             this.hiScorePanel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.hiScorePanel.BackColor = System.Drawing.Color.Gold;
+            this.hiScorePanel.Controls.Add(this.btnExit2);
             this.hiScorePanel.Controls.Add(this.btnSave);
             this.hiScorePanel.Controls.Add(this.txtName);
             this.hiScorePanel.Controls.Add(this.lblName);
@@ -302,7 +304,7 @@
             this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(145, 100);
+            this.btnSave.Location = new System.Drawing.Point(220, 100);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(107, 26);
             this.btnSave.TabIndex = 3;
@@ -619,6 +621,21 @@
             // 
             this.gameOverTimer.Tick += new System.EventHandler(this.gameOverTimer_Tick);
             // 
+            // btnExit2
+            // 
+            this.btnExit2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnExit2.BackColor = System.Drawing.Color.Black;
+            this.btnExit2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit2.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit2.ForeColor = System.Drawing.Color.White;
+            this.btnExit2.Location = new System.Drawing.Point(77, 100);
+            this.btnExit2.Name = "btnExit2";
+            this.btnExit2.Size = new System.Drawing.Size(107, 26);
+            this.btnExit2.TabIndex = 4;
+            this.btnExit2.Text = "Exit";
+            this.btnExit2.UseVisualStyleBackColor = false;
+            this.btnExit2.Click += new System.EventHandler(this.btnExit2_Click);
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -741,6 +758,7 @@
         private System.Windows.Forms.PictureBox fireworks;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Timer gameOverTimer;
+        private System.Windows.Forms.Button btnExit2;
     }
 }
 
