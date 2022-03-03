@@ -13,7 +13,7 @@ namespace Star_Wars_Game
 {
     public partial class MenuForm : Form
     {
-        SoundPlayer musicPlayer = new SoundPlayer(@"D:\MSSA\PCAD5\Project1\Star Wars Game\Resources\starwars.wav");
+        SoundPlayer musicPlayer = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\starwars.wav");
         SoundPlayer soundPlayer;
 
         public MenuForm()
@@ -29,7 +29,7 @@ namespace Star_Wars_Game
         private void btnPlay_Click(object sender, EventArgs e)
         {
             musicPlayer.Stop();
-            soundPlayer = new SoundPlayer(@"D:\MSSA\PCAD5\Project1\Star Wars Game\Resources\light-saber-on.wav");
+            soundPlayer = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\light-saber-on.wav");
             soundPlayer.Play();
             GameForm gf = new GameForm();
             this.Visible = false;
@@ -38,7 +38,7 @@ namespace Star_Wars_Game
 
         private void btnHighScores_Click(object sender, EventArgs e)
         {
-            soundPlayer = new SoundPlayer(@"D:\MSSA\PCAD5\Project1\Star Wars Game\Resources\light-saber-on.wav");
+            soundPlayer = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\light-saber-on.wav");
             soundPlayer.Play();
             ScoresForm sf = new ScoresForm();
             this.Visible = false;           
@@ -47,7 +47,7 @@ namespace Star_Wars_Game
 
         private void btnExitMF_Click(object sender, EventArgs e)
         {
-            soundPlayer = new SoundPlayer(@"D:\MSSA\PCAD5\Project1\Star Wars Game\Resources\light-saber-off.wav");
+            soundPlayer = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\light-saber-off.wav");
             soundPlayer.Play();
             exitTimer.Start();
             exitTimer.Interval = 1000;          

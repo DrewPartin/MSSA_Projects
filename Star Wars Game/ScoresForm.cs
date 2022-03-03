@@ -13,7 +13,7 @@ namespace Star_Wars_Game
 {
     public partial class ScoresForm : Form
     {
-        SoundPlayer musicPlayer = new SoundPlayer(@"D:\MSSA\PCAD5\Project1\Star Wars Game\Resources\rebel-theme.wav");
+        SoundPlayer musicPlayer = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\rebel-theme.wav");
         SoundPlayer soundPlayer;
 
         public ScoresForm()
@@ -65,7 +65,7 @@ namespace Star_Wars_Game
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            soundPlayer = new SoundPlayer(@"D:\MSSA\PCAD5\Project1\Star Wars Game\Resources\light-saber-on.wav");
+            soundPlayer = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\light-saber-on.wav");
             soundPlayer.Play();  
             backTimer.Start();
             backTimer.Interval = 550;
@@ -82,7 +82,7 @@ namespace Star_Wars_Game
 
         private void btnExitHS_Click(object sender, EventArgs e)
         {
-            soundPlayer = new SoundPlayer(@"D:\MSSA\PCAD5\Project1\Star Wars Game\Resources\light-saber-off.wav");
+            soundPlayer = new SoundPlayer(@"D:\MSSA\MSSA_Projects_GitRepo\MSSA_Projects\Star Wars Game\Resources\light-saber-off.wav");
             soundPlayer.Play();
             exitTimer.Start();
             exitTimer.Interval = 1000;
