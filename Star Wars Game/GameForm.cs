@@ -40,6 +40,7 @@ namespace Star_Wars_Game
 
         private void GameForm_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("W - Move Up \n S - Move Down \n A - Move Left \n D - Move Right \n Spacebar - Shoot");
             ResetGame();
         }
 
@@ -576,7 +577,7 @@ namespace Star_Wars_Game
                 #endregion
             }
         }
-            
+
         private void keyIsDown(object sender, KeyEventArgs e)
         {
             if (isGameOver == false)
@@ -758,9 +759,17 @@ namespace Star_Wars_Game
             Application.Exit();
         }
 
+        private void btnMenu2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your score will not be saved.");
+            MenuForm mf = new MenuForm();
+            this.Visible = false;
+            mf.Show();
+        }
+
         private void btnExit2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Your score will not be saved. Thanks for playing!");
+            MessageBox.Show("Your score will not be saved. May the force be with you.");
             Application.Exit();
         }
     }

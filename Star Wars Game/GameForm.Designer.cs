@@ -48,6 +48,7 @@
             this.btnMenu = new System.Windows.Forms.Button();
             this.btnExitGF = new System.Windows.Forms.Button();
             this.hiScorePanel = new System.Windows.Forms.Panel();
+            this.btnMenu2 = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
@@ -286,6 +287,7 @@
             this.hiScorePanel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.hiScorePanel.BackColor = System.Drawing.Color.Gold;
             this.hiScorePanel.Controls.Add(this.btnExit2);
+            this.hiScorePanel.Controls.Add(this.btnMenu2);
             this.hiScorePanel.Controls.Add(this.btnSave);
             this.hiScorePanel.Controls.Add(this.txtName);
             this.hiScorePanel.Controls.Add(this.lblName);
@@ -297,6 +299,21 @@
             this.hiScorePanel.TabIndex = 35;
             this.hiScorePanel.Visible = false;
             // 
+            // btnMenu2
+            // 
+            this.btnMenu2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnMenu2.BackColor = System.Drawing.Color.Black;
+            this.btnMenu2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu2.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu2.ForeColor = System.Drawing.Color.White;
+            this.btnMenu2.Location = new System.Drawing.Point(21, 100);
+            this.btnMenu2.Name = "btnMenu2";
+            this.btnMenu2.Size = new System.Drawing.Size(107, 26);
+            this.btnMenu2.TabIndex = 4;
+            this.btnMenu2.Text = "Menu";
+            this.btnMenu2.UseVisualStyleBackColor = false;
+            this.btnMenu2.Click += new System.EventHandler(this.btnMenu2_Click);
+            // 
             // btnSave
             // 
             this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -304,7 +321,7 @@
             this.btnSave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(220, 100);
+            this.btnSave.Location = new System.Drawing.Point(148, 100);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(107, 26);
             this.btnSave.TabIndex = 3;
@@ -628,10 +645,10 @@
             this.btnExit2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExit2.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit2.ForeColor = System.Drawing.Color.White;
-            this.btnExit2.Location = new System.Drawing.Point(77, 100);
+            this.btnExit2.Location = new System.Drawing.Point(276, 100);
             this.btnExit2.Name = "btnExit2";
             this.btnExit2.Size = new System.Drawing.Size(107, 26);
-            this.btnExit2.TabIndex = 4;
+            this.btnExit2.TabIndex = 5;
             this.btnExit2.Text = "Exit";
             this.btnExit2.UseVisualStyleBackColor = false;
             this.btnExit2.Click += new System.EventHandler(this.btnExit2_Click);
@@ -758,6 +775,7 @@
         private System.Windows.Forms.PictureBox fireworks;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Timer gameOverTimer;
+        private System.Windows.Forms.Button btnMenu2;
         private System.Windows.Forms.Button btnExit2;
     }
 }
