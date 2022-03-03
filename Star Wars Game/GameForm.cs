@@ -698,6 +698,13 @@ namespace Star_Wars_Game
                 var newscore = new ScoresSW();
                 newscore.Player_Name = txtName.Text;
                 newscore.Score = Int32.Parse(txtScore.Text);
+                foreach(var v in HighScoreRepository.highScores.ScoresSWs)
+                {
+                    if(newscore.Player_Name.Equals(v.Player_Name))
+                    {
+                        HighScoreRepository.highScores.ScoresSWs.Remove(v);
+                    }
+                }
                 HighScoreRepository.AddScore(newscore);
                 if (HighScoreRepository.GetScores().Count > 10)
                 {
