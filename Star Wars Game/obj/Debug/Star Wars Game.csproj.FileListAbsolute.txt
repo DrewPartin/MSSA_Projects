@@ -50,3 +50,4 @@ D:\GitRepos\MSSA_Projects\MSSA_Projects\Star Wars Game\obj\Debug\Star Wars Game.
 D:\GitRepos\MSSA_Projects\MSSA_Projects\Star Wars Game\obj\Debug\Star Wars Game.csproj.CopyComplete
 D:\GitRepos\MSSA_Projects\MSSA_Projects\Star Wars Game\obj\Debug\Star Wars Game.exe
 D:\GitRepos\MSSA_Projects\MSSA_Projects\Star Wars Game\obj\Debug\Star Wars Game.pdb
+D:\GitRepos\MSSA_Projects\MSSA_Projects\Star Wars Game\obj\Debug\Star Wars Game.csproj.AssemblyReference.cache
